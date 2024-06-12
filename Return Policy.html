@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Tech Store | E-commerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="storelogo.jpg" width="125px"></a>
+            </div>
+            <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+            </nav>
+            <a href="cart.html"><img src="cart.png" width="30px" height="30px"></a>
+            <img src="menu.png" onclick="menutoggle()" class="menu-icon">
+        </div>
+        <header>
+            <h1>Return Policy</h1>
+            <p>Return Policy
+
+                Thank you for shopping at [Tech Store Name]. We appreciate your business and want to ensure your satisfaction with our products. Please read our return policy carefully to understand your options.
+                
+                1. Returns:
+                
+                You have 7 days to return an item from the date of purchase.
+                To be eligible for a return, your item must be unused and in the same condition that you received it.
+                Your item must be in the original packaging, and you must provide the receipt or proof of purchase.
+                2. Refunds:
+                
+                Once we receive your item, we will inspect it and notify you that we have received your returned item.
+                We will immediately notify you on the status of your refund after inspecting the item.
+                If your return is approved, we will initiate a refund to your original method of payment.
+                3. Exchanges:
+                
+                If you wish to exchange your item for a different one, please contact our customer service within [X] days of purchase.
+                You will be responsible for any price difference and shipping costs associated with the exchange.
+                4. Warranty:
+                
+                Our products come with a [X]-month warranty. If your item is defective or malfunctions within this period, please contact us for a replacement or repair.
+                5. Non-Returnable Items:
+                
+                Certain items are non-returnable, including but not limited to [list of non-returnable items].
+                6. Shipping:
+                
+                You will be responsible for paying your own shipping costs for returning your item. Shipping costs are non-refundable.
+                7. Contact Us:
+                
+                If you have any questions about our return policy, please contact our customer service at [contact email/phone number].</p>
+                <!----------Footer---------------> 
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col1">
+            <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="play-store.png">
+                    <img src="app-store.png">
+                </div>
+            </div>
+            <div class="footer-col2">
+            <img src="storelogo.jpg">
+                <p>The purpose of a Tech Tech Store is to provide a retail space where customers can purchase various types of technology products and related accessories.</p>
+            </div>
+            <div class="footer-col3">
+            <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li><br>
+                    <li>Blog Post</li><br>
+                    <li><a href="Return policy.html">Return Policy</a></li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col4">
+            <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li><br>
+                    <li>Twitter<li><br>
+                    <li>Instagram</li><br>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"> Copyright 2023 - Tech Tech Store</p>
+    </div>
+    
+</div>
+
+
+
+<!-------------js for toggle menu-------------->
+
+<script>
+    
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle()
+    {
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }else
+            {
+                MenuItems.style.maxHeight = "0px"
+            } 
+    }
+    
+</script>
+
+</body>
+</html>
+    8
